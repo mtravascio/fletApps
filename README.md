@@ -1,5 +1,5 @@
 # fletApps
-Some flet Apps examples for MacOs, Linux, Web, Android and iPhone
+Some flet Apps examples for MacOs, Linux, Web, Android and iOS and (Windows to be tested!)
 
 # Installation of development environment on Linux and MacOs
 
