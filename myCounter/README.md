@@ -2,7 +2,12 @@
 
 the first counter app.
 
-## To run the app:
+# to create the App:
+```
+flet create --project-name myCounter --description 'My Counter App' --template counter myCounter
+```
+
+## To run the App:
 ```
 flet run myCounter
 ```
