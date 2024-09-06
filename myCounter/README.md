@@ -1,24 +1,53 @@
-# A mycounter Flet app
+# A myCounter Flet app
 
-An example of a counter Flet app.
+the first counter app.
 
-To run the app:
-
+## To run the app:
 ```
-flet run [app_directory]
+flet run myCounter
 ```
 
-To Build myCounter Web App:
-
+## To Build myCounter Web App:
 ```
 flet build web myCounter
-python3 -m http.server nella directory di index.html
-aprire il browser su http://localhost:8000/ per lanciare l'app web
-oppure 
+
 flet run --web myCounter
 ```
+or
+```
+python3 -m http.server nella directory di index.html
+```
+open the browser su http://localhost:8000/ per lanciare l'app web
 
-To Build Mac Os App
+## To Build Mac Os App
 ```
 flet build macos myCounter
 ```
+launch ./myCounter/build/macos/mycounter.app
+
+## To Build Linux App
+```
+flet build linux myCounter
+```
+launch ./myCounter/build/linux/mycounter
+
+...after that to pack mycounter app (using pyinstaller)
+```
+flet pack myCounter/main.py
+```
+launch ./dist/main
+
+## To Build iOS App
+```
+flet build ipa myCounter
+```
+To launch...(to be done)
+
+## To Build Android App/Bundle
+```
+flet build apk myCounter
+
+flet build aab myCounter
+```
+To launch...(to be done)
+
