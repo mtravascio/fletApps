@@ -10,9 +10,7 @@ install VSCode via deb package
 viene scaricato il venv python e creato un env python
 
 ### Flet Installation 
-pip3 install flet
-
-flet create Counter
+pip install --upgrade flet
 
 ### Install Flutter
 follow instruction on website...
@@ -135,7 +133,7 @@ source .venv/bin/activate
 
 pip install --upgrade pip
 
-pip3 install --upgrade flet
+pip install --upgrade flet
 
 pip install --upgrade PyInstaller
 
