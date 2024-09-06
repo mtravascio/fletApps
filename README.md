@@ -153,9 +153,9 @@ code .
 
 source .venv/bin/activate
 
-flet create my-app
+flet create --project-name myCounter --description 'My Counter App' --template counter myCounter
 
-cd my-app
+flet run myCounter
 
 flet run --ios counter.py (da verificare come mai non apre su ios/android forse firewall)
 flet run --android counter.py
