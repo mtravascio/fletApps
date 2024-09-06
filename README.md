@@ -63,9 +63,9 @@ source .venv/bin/activate
 
 pip install flet --upgrade
 
-flet create my-app
+flet create --project-name myCounter --description 'My Counter App' --template counter myCounter
 
-cd my-app
+flet run myCounter
 
 flet run --ios (da verificare come mai non apre su ios/android forse firewall)
 
