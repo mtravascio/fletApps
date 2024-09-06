@@ -12,6 +12,8 @@ viene scaricato il venv python e creato un env python
 ### Flet Installation 
 pip install --upgrade flet
 
+pip install --upgrade pyinstaller
+
 ### Install Flutter
 follow instruction on website...
 install via VSCode cmd palette
