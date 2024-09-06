@@ -93,7 +93,7 @@ sudo apt dist-upgrade
 
 '.../bin/studio.sh  check update of Android SDK Manager'
 
-cd .../Develop/Python/Flet
+cd .../Develop/Python/fletApps
 
 flutter upgrade
 
@@ -147,7 +147,7 @@ or
 
 open Terminal
 
-cd Develop\Python\Flet
+cd Develop\Python\fletApps
 
 code .
 
